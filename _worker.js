@@ -5,9 +5,9 @@ let mytoken= 'auto';//快速订阅访问入口, 留空则不启动快速订阅
 
 // 设置优选地址，不带端口号默认8443，不支持非TLS订阅生成
 let addresses = [
-	'edgetunnel.anycast.eu.org:443#Youtube-由零開始',
+	'8.219.4.122:2096#Youtube-由零開始',
 	'japan.com:443#Youtube-由零開始',
-	'ip.sb:443',
+	'8.222.144.50:2084',
 	'www.hugedomains.com:443',
 	'russia.com:8443',
 	'www.whoer.net:443',
@@ -18,7 +18,6 @@ let addresses = [
 	'www.udemy.com:443',
 	'119.28.59.141:443',
 	'172.67.65.232:443',
-	'youip.wang66.homes:443',
 	'185.162.228.121:443',
 	'185.135.9.15:443',
 	'cf.090227.xyz:443',
@@ -30,13 +29,13 @@ let addresses = [
 	'45.131.210.1:443',
 	'104.18.141.11:443',
 	'104.18.70.172:443',
-	'104.18.141.11:443',
+	'8.219.124.227:2053',
 	'104.19.6.127:443',
 	'162.159.14.60:443',
 	'cnv6.xxxxxxxx.tk:443',
 	'104.18.109.189:443',
 	'104.18.84.71:443',
-	'172.64.98.212:443',	
+	'8.219.191.110:8443',	
 ];
 
 // 设置优选地址api接口
@@ -53,10 +52,7 @@ let addressesapi = [
 let DLS = 8;//速度下限
 let addressescsv = [
 	'https://raw.githubusercontent.com/anning1988/yxip/main/16509-1709716327.csv',
-	'https://raw.githubusercontent.com/anning1988/yxip/main/31898-1709710041.csv',
-	'https://raw.githubusercontent.com/anning1988/yxip/main/396982-1709712373.csv',
-	'https://raw.githubusercontent.com/anning1988/yxip/main/45102-1709485217.csv',
-	'https://raw.githubusercontent.com/anning1988/yxip/main/8075-1709718791.csv',
+	'https://cf-workers-text2kv-660.pages.dev/AS0-0-SIN.csv?token=ANNING',
 ];
 
 let subconverter = "api.v1.mk"; //在线订阅转换后端，目前使用肥羊的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
